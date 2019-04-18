@@ -60,7 +60,7 @@ const IndexPage = ({ search }) => {
       </div>
       <hr />
       <p>
-        <Link to="/simple?custom=hello">A Simple Example Page</Link>
+        <Link to="simple?custom=hello">A Simple Example Page</Link>
       </p>
       <hr />
     </Layout>
