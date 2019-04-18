@@ -1,10 +1,11 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gatsby-query-string-demo",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "Demonstrates dynamic content based on query string values in Gatsby",
+  "version": "1.0.0",
+  "author": "@chrisfitkin",
   "dependencies": {
+    "@reach/router": "^1.2.1",
     "gatsby": "^2.3.16",
     "gatsby-image": "^2.0.37",
     "gatsby-plugin-manifest": "^2.0.28",
@@ -14,6 +15,7 @@
     "gatsby-source-filesystem": "^2.0.29",
     "gatsby-transformer-sharp": "^2.1.17",
     "prop-types": "^15.7.2",
+    "query-string": "^6.4.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0"
