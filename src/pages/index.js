@@ -36,13 +36,13 @@ const IndexPage = ({ search }) => {
       <h3>Who is your favorite hero?</h3>
       <ul>
         <li>
-          <Link to="./?hero=superman">Superman</Link>
+          <Link to="?hero=superman">Superman</Link>
         </li>
         <li>
-          <Link to="./?hero=batman">Batman</Link>
+          <Link to="?hero=batman">Batman</Link>
         </li>
         <li>
-          <Link to="./?hero=wonder_woman">Wonder Woman</Link>
+          <Link to="?hero=wonder_woman">Wonder Woman</Link>
         </li>
       </ul>
       {hero && <h3>{hero}</h3>}
@@ -60,7 +60,7 @@ const IndexPage = ({ search }) => {
       </div>
       <hr />
       <p>
-        <Link to="./simple?custom=hello">A Simple Example Page</Link>
+        <Link to="simple?custom=hello">A Simple Example Page</Link>
       </p>
       <hr />
     </Layout>

@@ -4,6 +4,8 @@ module.exports = {
     description: `Demonstrates dynamic content based on query string values in Gatsby.`,
     author: `@chrisfitkin`,
   },
+  // Note: it must *not* have a trailing slash.
+  pathPrefix: `/gatsby-query-string-demo`,
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
