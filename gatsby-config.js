@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Gatsby Query String Demo`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `Demonstrates dynamic content based on query string values in Gatsby.`,
+    author: `@chrisfitkin`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
